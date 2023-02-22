@@ -1,8 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cute+Font&family=Roboto:wght@100&family=Sono:wght@300&display=swap');
 
-*{
-    font-family: 'Roboto', sans-serif;
-}
 
 #intro {
     display: flex;
@@ -14,7 +10,7 @@
     width: 65%;
   }
 .typewriter{
-    color: white;
+    color: #8e6da0;
     font-weight: 800;
     font-size: 76px;
 }
@@ -40,4 +36,52 @@
     text-align: justify;
     margin-top: -25px;
     padding-bottom: 50px;
+}
+
+.intro-button{
+  align-items: center;
+  background-color: transparent;
+  border: 2px solid #8e6da0;
+  box-sizing: border-box;
+  color: #8e6da0;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: -.8px;
+  line-height: 24px;
+  min-width: 140px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.intro-button:focus {
+  color: #171e29;
+}
+
+.intro-button:hover {
+  border-color: #9aadbf;
+  color: #9aadbf;
+  fill: #9aadbf;
+}
+
+.intro-button:active {
+  border-color: #9aadbf;
+  color: #9aadbf;
+  fill: #9aadbf;
+}
+
+@media (min-width: 768px) {
+    .intro-button {
+    min-width: 170px;
+  }
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/Intro.css";
 import Typewriter from "typewriter-effect";
+import { BsFillChatSquareFill } from "react-icons/bs";
 
 const Intro = () => {
     return(
@@ -20,6 +21,9 @@ const Intro = () => {
                 I'm interested in any type of development that requires 
                 creativity and critical thinking.
             </p>
+            <div>
+                <button className="intro-button">{<BsFillChatSquareFill />} Hi there!</button>
+            </div>
         </div>
         </div>
         </div>
