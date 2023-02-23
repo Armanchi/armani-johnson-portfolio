@@ -34,6 +34,7 @@ const About = () => {
           </div>
           <div className="about-container">
             <div className="about-description">
+
               {[first]}
               {"I have worked with:"}
               <ul className="tech-stack">
@@ -44,6 +45,9 @@ const About = () => {
                 })}
               </ul>
               {[second]}
+            </div>
+            <div className="about-image">
+            <img src="https://live.staticflickr.com/65535/52707022798_4c065bd00c_o.jpg" width="320" height="438" alt="Untitled design - 1"></img><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
             </div>
           </div>
       </div>

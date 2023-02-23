@@ -22,7 +22,7 @@ const Intro = () => {
                 creativity and critical thinking.
             </p>
             <div>
-                <button className="intro-button">{<BsFillChatSquareFill />} Hi there!</button>
+                <button className="intro-button"><a id = "an" href = "mailto:armanijohnson0104@gmail.com">{<BsFillChatSquareFill />} Hi there!</a></button>
             </div>
         </div>
         </div>

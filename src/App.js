@@ -3,6 +3,7 @@ import "./shared/globalStyles.css"
 import Intro from "./components/Intro";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
+import Projects from  "./components/Projects"
 
 function App() {
   return (
@@ -10,11 +11,9 @@ function App() {
       <div>
       <Intro />
       <About />
-      {/* <About />
-      <Experience />
       <Projects />
-      <Contact /> 
-       */}
+      {/* <Experience />
+      <Contact />  */}
       </div>
       <Navbar />
     </div>

@@ -38,7 +38,7 @@
     position: absolute;
     left: 0;
   }
-  .about-content {
+  .about-container {
     display: flex;
     flex-direction: row;
   }
@@ -55,4 +55,22 @@
   .about-description b {
     font-size: 21px;
     font-weight: bold;
-  }
+}
+
+.about-image {
+    padding-left: 30px;
+    flex-wrap: wrap;
+
+}
+  .about-image img {
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+    margin-left: 30px;
+    box-shadow: 6px 13px 23px -5px rgba(0, 0, 0, 0.46);
+    border: none; 
+}
+.about-image:hover {
+    transform: translateY(-7px);
+}
+
