@@ -2,17 +2,18 @@ import React from "react";
 import "./shared/globalStyles.css"
 import Intro from "./components/Intro";
 import Navbar from "./components/Navbar";
+import About from "./components/About";
+import Projects from  "./components/Projects"
 
 function App() {
   return (
     <div className="App">
       <div>
       <Intro />
-      {/* <About />
-      <Experience />
+      <About />
       <Projects />
-      <Contact /> 
-       */}
+      {/* <Experience />
+      <Contact />  */}
       </div>
       <Navbar />
     </div>

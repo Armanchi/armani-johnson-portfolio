@@ -1,4 +1,5 @@
 import React from "react";
+import {BrowserRouter} from "react-router-dom";
 import "../styles/Navbar.css";
 
 
@@ -7,12 +8,14 @@ import "../styles/Navbar.css";
 const Navbar = () => {
       return (
         <div className="navbar-container">
+            <BrowserRouter>
             <ul>
-                <li className="nav-link"><a href="/">home</a></li>
+                <li className="nav-link"><a href="/#">home</a></li>
                 <li className="nav-link"><a href="#about">about</a></li>
                 <li className="nav-link"><a href="#projects">projects</a></li>
                 <li className="nav-link"><a href="#contact">contact</a></li>
             </ul>
+            </BrowserRouter>
         </div>
       )
 }
