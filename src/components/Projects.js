@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/Projects.css";
 import { FiGithub } from "react-icons/fi";
 import { BsFolderFill} from "react-icons/bs";
+// import ShowMore from "../components/ShowButton";
 
 const Projects = () => {
     const projects = {
@@ -23,11 +24,27 @@ const Projects = () => {
             techStack: "Node.js, Express, EJS, CSS, MongoDB",
             link: "https://github.com/Armanchi/node-final-project"
         }
+        // "Armani Johnson- Personal Portfolio": {
+        //     desc: "Updated version of my personal website butilt with Javascript.",
+        //     techStack: "HTML/CSS, Javascript",
+        //     link: "https://github.com/Armanchi/intro-to-programming-asteroid"
+        // }
     }
+    // const extra = [ {
+    //         "Armani Johnson- Personal Portfolio" : {
+    //                    desc: "Updated version of my personal website butilt with Javascript.",
+    //                    techStack: "HTML/CSS, Javascript",
+    //                    link: "https://github.com/Armanchi/intro-to-programming-asteroid"}
+    //         }
+    //         ]
+
     return(
         <div id="projects">
             <div section-header>
                 <span className="section-title">projects</span>
+                <div id="link-container">
+                    <a  href="https://github.com/Armanchi" className="hover-underline-animation">view my archive</a>
+                </div>
             </div>
             <div className="project-container">
           <ul className="projects-grid">
@@ -48,6 +65,9 @@ const Projects = () => {
                 </li>
             ))}
           </ul>
+          {/* <ShowMore> */}
+            {/* //TO DO: Figure out how to create working show more/less button */}
+        {/* </ShowMore>  */}
         </div>
       </div>
     )

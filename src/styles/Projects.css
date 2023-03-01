@@ -1,12 +1,48 @@
 #projects {
     padding-left: 15%;
     padding-right: 25%;
+    padding-top: 5%;
     min-height: 60vh;
   }
 .section-title{
     color: #9aadbf;
     font-size: 50px;
   }
+#link-container{
+    display: flex;
+    padding-top: 10px;
+}
+
+/* #project-arc{
+    font-size: 14px;
+    color:#8e6da0;
+} */ 
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color:#9aadbf;
+}
+  
+  .hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color:#8e6da0;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+  
+  .hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+  
+
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(3, minmax(300px, 1fr));
@@ -17,11 +53,12 @@
       grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     }
   }
-a {
+
+.git-link {
     color: #8e6da0 !important;
 }
 
-a:hover{
+.git-link:hover{
     color: white !important;
 }
 
@@ -64,7 +101,7 @@ a:hover{
 .card-desc {
     font-size: 16px;
     padding-bottom: 30px;
-    color: #9aadbf;
+    color: rgb(154, 173, 191, .5);
 }
   
 .card-tech {
@@ -72,3 +109,4 @@ a:hover{
     color: #8e6da0;
     font-weight: 500;
 }
+
