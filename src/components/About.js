@@ -34,7 +34,6 @@ const About = () => {
           </div>
           <div className="about-container">
             <div className="about-description">
-
               {[first]}
               {"I have worked with:"}
               <ul className="tech-stack">

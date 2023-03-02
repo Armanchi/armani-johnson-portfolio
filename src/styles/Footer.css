@@ -1,0 +1,13 @@
+#foot {
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+}
+  
+.foot {
+    color:rgb(154, 173, 191, 1) ;
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+    padding-bottom: 40px;
+}

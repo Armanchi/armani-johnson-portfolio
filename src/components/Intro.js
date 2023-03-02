@@ -3,6 +3,8 @@ import "../styles/Intro.css";
 import Typewriter from "typewriter-effect";
 import { BsFillChatSquareFill } from "react-icons/bs";
 
+
+
 const Intro = () => {
     return(
         <div id="intro">
@@ -22,6 +24,7 @@ const Intro = () => {
                 creativity and critical thinking.
             </p>
             <div>
+        
                 <button className="intro-button"><a id = "an" href = "mailto:armanijohnson0104@gmail.com">{<BsFillChatSquareFill />} Hi there!</a></button>
             </div>
         </div>
