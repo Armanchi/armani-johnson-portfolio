@@ -2,15 +2,15 @@
     padding-left: 15%;
     padding-right: 25%;
     min-height: 60vh;
-    padding-top: 5%;
+    padding-top: 10%;
 }
 .contact-sub{
-    font-size: 22px;
+    font-size: 16px;
     color: rgb(154, 173, 191, .5);
     margin-top: 15px;
     text-align: center;
     justify-content: center;
-    padding-left: 40px;
+    padding-left: 45px;
 }
 .section-title-con{
     color: #9aadbf;
@@ -37,16 +37,55 @@
     list-style-type: none; 
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .contact-links{
-    color: rgb(154, 173, 191, .3) !important;
-    font-size: 14px;
-    text-align: center;
+    color:#8e6da0 !important;
 }
 .contact-links:hover{
-    color: #9aadbf !important;
+   color: #9aadbf !important;
 }
-
-
+.link-button{
+    align-items: center;
+    background-color: transparent;
+    border: 2px solid #8e6da0;
+    box-sizing: border-box;
+    color: #8e6da0;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 12px;
+    font-weight: 600;
+    height: 30px;
+    justify-content: center;
+    letter-spacing: -.5px;
+    line-height: 24px;
+    min-width: 40px;
+    outline: 0;
+    padding: 0 17px;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+  
+.link-button:focus {
+    color: #171e29;
+}
+  
+.link-button:hover {
+    border-color: #9aadbf;
+    color: #9aadbf;
+    fill: #9aadbf;
+}
+  
+.link-button:active {
+    border-color: #9aadbf;
+    color: #9aadbf;
+    fill: #9aadbf;
+}
+  
+  
 

@@ -23,11 +23,11 @@
 }
 
 a{
-   color: #8e6da0;
+   color:#9aadbf ;
    text-decoration: none;
    cursor: pointer;
 }
 
 a:hover{
-    color: #9aadbf;
+    color: #8e6da0;
 }
